@@ -70,11 +70,11 @@
                   <div class="pairs-justified" style="border-right: solid 1px #EAEAEA; border-left: solid 1px #EAEAEA; padding: 0 10px">
                     <dl>
                       <dt>{$VIEWS}:</dt>
-                      <dd>{$sticky.views}</dd>
+                      <dd>{$topic.views}</dd>
                     </dl>
                     <dl>
                       <dt>{$POSTS}:</dt>
-                      <dd>{$sticky.posts}</dd>
+                      <dd>{$topic.posts}</dd>
                     </dl>
                   </div>
                 </td>
