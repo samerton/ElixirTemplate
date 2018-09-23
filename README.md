@@ -1,6 +1,5 @@
-## **Elixir Template | A New Look For NamelessMC**
-> **For Nameless v1.0.21**
-
+## **Elixir Template | NamelessMC v1.0.21**
+> **A New Look For NamelessMC**
 
 ### **Features:**
  - Clean and Sleek Design
@@ -18,3 +17,7 @@
 
 ****
 > This template was release under **[MIT](https://github.com/Xemah/ElixirTemplate/blob/master/LICENSE)** License
+
+> **[IMPORTANT]** Make a complete backup before Installation! I will not be responsible for any loss of data.
+
+> If you have any problems, please contact me through Discord: Xemah#4652
