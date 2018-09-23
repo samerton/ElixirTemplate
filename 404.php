@@ -27,9 +27,6 @@ header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
   
   <body>
     <?php $smarty->display('styles/templates/' . $template . '/navbar.tpl'); ?>
-    <div class="container announcement">
-      {$SESSION_FLASH}
-    </div>
     <div class="container index">
       <h3><?php echo $sitename; ?> - Error</h3>
       <span class="tagline">The requested page could not be found.</span>
