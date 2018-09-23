@@ -16,7 +16,7 @@
 - https://elixir.xemah.xyz
 
 ****
-> This template was release under **[MIT](https://github.com/Xemah/ElixirTemplate/blob/master/LICENSE)** License
+> This template was released under **[MIT](https://github.com/Xemah/ElixirTemplate/blob/master/LICENSE)** License
 
 > **[IMPORTANT]** Make a complete backup before Installation! I will not be responsible for any loss of data.
 
