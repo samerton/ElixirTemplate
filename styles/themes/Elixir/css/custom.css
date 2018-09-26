@@ -365,6 +365,17 @@ textarea {
     text-transform: uppercase;
     color: #fff ;
 }
+.panel-forum>.panel-heading a {
+    margin: 0;
+    margin-bottom: 12px;
+    background-color: #242526;
+    border-bottom: 2px solid #111111;
+    padding: 14px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff ;
+}
 .panel-forum>.panel-heading>i {
     margin: 0 5px;
 }
