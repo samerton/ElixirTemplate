@@ -12,19 +12,19 @@
 
 {if isset($LOGGED_IN_USER)}
   <div class="navbar-user-sm">
-      <a class="hvr-radial-out pull-right" href="https://elixir.xemah.xyz/signout"><i class="fas fa-sign-out-alt"></i></a>
-      <a class="hvr-radial-out pull-right" href="https://elixir.xemah.xyz/user">{$LOGGED_IN_USER.username}</a>
+      <a class="hvr-radial-out pull-right" href="/signout"><i class="fas fa-sign-out-alt"></i></a>
+      <a class="hvr-radial-out pull-right" href="/user">{$LOGGED_IN_USER.username}</a>
       {if $LOGGED_IN_USER.admincp}
-        <a class="hvr-radial-out" href="https://elixir.xemah.xyz/admin">{$ADMINCP}</a>
+        <a class="hvr-radial-out" href="/admin">{$ADMINCP}</a>
       {/if}
       {if $LOGGED_IN_USER.modcp}
-        <a class="hvr-radial-out" href="https://elixir.xemah.xyz/mod">{$MODCP}</a>
+        <a class="hvr-radial-out" href="/mod">{$MODCP}</a>
       {/if}
   </div>
 {else}
   <div class="navbar-user-sm">
-      <a class="hvr-radial-out pull-right" href="https://elixir.xemah.xyz/signin">{$SIGNIN}</a>
-      <a class="hvr-radial-out pull-right" href="https://elixir.xemah.xyz/register">{$REGISTER}</a>
+      <a class="hvr-radial-out pull-right" href="/signin">{$SIGNIN}</a>
+      <a class="hvr-radial-out pull-right" href="/register">{$REGISTER}</a>
   </div>
 {/if}
   
