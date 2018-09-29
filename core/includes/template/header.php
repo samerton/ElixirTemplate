@@ -12,11 +12,11 @@
 
 // Title and meta tags
 echo '<title>' . str_replace('&amp;', '&', $title) . ' | ' . $sitename . '</title>';
-echo '<meta property="og:title" content="Elixir Theme " />' . PHP_EOL;
-echo '<meta property="og:site_name" content="Elixir Theme" />' . PHP_EOL;
-echo '<meta property="og:description" content="Elixir Theme for NamelessMC V1" />' . PHP_EOL;
-echo '<meta property="og:url" content="https://elixir.xemah.xyz/" />' . PHP_EOL;
-echo '<meta property="og:image" content="https://elixir.xemah.xyz/styles/themes/' . $theme_result . '/img/logo.png" />' . PHP_EOL;
+echo '<meta property="og:title" content="' . str_replace('&amp;', '&', $title) . ' | ' . $sitename . '" />' . PHP_EOL;
+echo '<meta property="og:site_name" content="' . $sitename . '" />' . PHP_EOL;
+echo '<meta property="og:description" content="Community Website For' . $sitename . '" />' . PHP_EOL;
+echo '<meta property="og:url" content="/" />' . PHP_EOL;
+echo '<meta property="og:image" content="/styles/themes/' . $theme_result . '/img/logo.png" />' . PHP_EOL;
  
 // Check to see if the theme actually exists..
 if(!is_dir('styles/themes/' . $theme_result)){
