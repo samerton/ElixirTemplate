@@ -37,14 +37,18 @@ $current_version = $current_version[0]->value;
 $uid = $queries->getWhere('settings', array('name', '=', 'unique_id'));
 $uid = $uid[0]->value;
 
-
-if($update_check = file_get_contents('https://worldscapemc.co.uk/nl_core/nl1/stats.php?uid=' . $uid . '&version=' . $current_version)){
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($ch, CURLOPT_URL, 'https://worldscapemc.co.uk/nl_core/nl1/stats.php?uid=' . $uid . '&version=' . $current_version);
+if($update_check = curl_exec($ch)){
 	if($update_check == 'Failed'){
 		$update_check = 'error';
 	}
 } else {
 	$update_check = 'error';
 }
+curl_close($ch);
 
 ?>
 <!DOCTYPE html>
