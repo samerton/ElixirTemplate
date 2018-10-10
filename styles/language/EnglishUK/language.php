@@ -686,9 +686,9 @@ $general_language = array(
 	'players_online' => 'Players Online:',
 	'queried_in' => 'Queried In:',
 	'server_status' => 'Server Status',
-	'no_players_online' => 'There are no players online.',
-	'1_player_online' => 'There is 1 player online.',
-	'x_players_online' => 'There are {x} players online.', // Don't replace {x}
+	'no_players_online' => 'Join 0 other player on',
+	'1_player_online' => 'Join 1 other player on',
+	'x_players_online' => 'Join {x} other players on', // Don't replace {x}
 	
 	// Other
 	'page_loaded_in' => 'Page loaded in {x}s', // Don't replace {x}; 's' stands for 'seconds'
