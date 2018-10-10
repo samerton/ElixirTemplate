@@ -51,7 +51,7 @@
   </div>
 </nav>
 
-{if (isset($CONNECT_WITH))}
+{if ($CONNECT_WITH eq ""}
 <div class="server-banner" id="server-banner">
   <center class="fa-1x">
     {if $page == "play"}
