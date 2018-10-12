@@ -13,7 +13,7 @@
 - https://imgur.com/a/RANpyXJ
 
 ### **Live Demo:**
-- https://elixir.xemah.xyz
+- https://elixir.xemah.me
 
 ****
 > This template was released under **[MIT](https://github.com/Xemah/ElixirTemplate/blob/master/LICENSE)** License
