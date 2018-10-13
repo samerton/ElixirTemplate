@@ -321,9 +321,9 @@ $adm_page = "minecraft";
                   $external_query = $queries->getWhere('settings', array('name', '=', 'external_query'));
                   $external_query = $external_query[0]->value;
                 ?>
-                <input name="external" value="1" id="external_query" type="checkbox" class="js-switch"<?php if($external_query === "true"){ echo ' checked'; } ?>>
                 <label for="external_query">&nbsp;&nbsp;<?php echo $admin_language['external_query']; ?></label>
                 <input type="hidden" name="external" value="0">
+                <input name="external" value="1" id="external_query" type="checkbox" class="js-switch"<?php if($external_query === "true"){ echo ' checked'; } ?>>
                 <span data-toggle="popover" data-content="<?php echo $admin_language['external_query_help']; ?>">&nbsp;<i class="fas fa-question-circle"></i></span>
             </div>
             <br />
